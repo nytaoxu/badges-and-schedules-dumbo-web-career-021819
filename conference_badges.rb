@@ -19,7 +19,7 @@ def assign_rooms(array)
 end
 
 def printer(array)
-  array.each do |name|
+  array.each_with_index do |name, index|
     puts("Hello, my name is #{name}.")
   end
 end
