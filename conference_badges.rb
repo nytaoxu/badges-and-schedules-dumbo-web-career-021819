@@ -20,6 +20,6 @@ end
 
 def printer(array)
   array.each do |name|
-    puts()
+    puts("Hello, my name is #{name}.")
   end
 end
