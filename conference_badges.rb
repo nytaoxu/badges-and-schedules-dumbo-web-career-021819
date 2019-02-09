@@ -20,7 +20,7 @@ end
 
 def printer(array)
   array.each_with_index do |name, index|
-    puts()
+    puts("Hello, my name is #{name}.")
     puts("Hello, #{name}! You'll be assigned to room #{index + 1}!")
   end
 end
