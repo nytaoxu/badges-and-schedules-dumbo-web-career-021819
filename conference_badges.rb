@@ -17,3 +17,7 @@ def assign_rooms(array)
   end
   result
 end
+
+def printer
+  
+end
